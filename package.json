@@ -8,6 +8,21 @@
     "todomvc-common": "^1.0.2"
   },
   "devDependencies": {
+    "@percy/script": "^1.1.0",
     "http-server": "^0.11.1"
-  }
+  },
+  "name": "example-todomvc",
+  "description": "An example application based on [TodoMVC](https://github.com/tastejs/todomvc).",
+  "version": "1.0.0",
+  "main": "snapshots.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sadorus/example-todomvc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sadorus/example-todomvc/issues"
+  },
+  "homepage": "https://github.com/Sadorus/example-todomvc#readme"
 }
