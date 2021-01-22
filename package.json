@@ -1,13 +1,15 @@
 {
   "private": true,
   "scripts": {
-    "start": "http-server -p 8000"
+    "start": "http-server -p 8000",
+	"test": "npx percy exec -- node snapshots.js"
   },
   "dependencies": {
     "todomvc-app-css": "^2.2.0",
     "todomvc-common": "^1.0.2"
   },
   "devDependencies": {
+    "@percy/agent": "^0.28.6",
     "@percy/script": "^1.1.0",
     "http-server": "^0.11.1"
   },
