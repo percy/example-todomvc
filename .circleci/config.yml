@@ -4,6 +4,10 @@ default_steps: &default_steps
   steps:
     - checkout
     - run: npm ci
+    - run:
+         name: Test Server
+         command: npm run start
+         background: true
     - run: npm run snapshots
 
 jobs:
